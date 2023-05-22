@@ -37,15 +37,15 @@ namespace skvor_pract3
 
             if (a == b)
             {
-                result = c;
+                result = 3;
             }
             else if (a == c)
             {
-                result = b;
+                result = 2;
             }
             else
             {
-                result = a;
+                result = 1;
             }
 
             TextBlockAnswer.Text = $"Порядковый номер числа, отличного от остальных: {result}";

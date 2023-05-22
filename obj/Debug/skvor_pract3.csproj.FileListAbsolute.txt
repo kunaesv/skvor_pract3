@@ -21,3 +21,5 @@ D:\YP\skvor_pract3\skvor_pract3\obj\Debug\Task3Page.g.cs
 D:\YP\skvor_pract3\skvor_pract3\obj\Debug\Task3Page.baml
 D:\YP\skvor_pract3\skvor_pract3\obj\Debug\Task4Page.g.cs
 D:\YP\skvor_pract3\skvor_pract3\obj\Debug\Task4Page.baml
+D:\YP\skvor_pract3\skvor_pract3\obj\Debug\Task5Page.g.cs
+D:\YP\skvor_pract3\skvor_pract3\obj\Debug\Task5Page.baml

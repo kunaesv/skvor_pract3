@@ -16,29 +16,19 @@ using System.Windows.Shapes;
 namespace skvor_pract3
 {
     /// <summary>
-    /// Логика взаимодействия для Task2Page.xaml
+    /// Логика взаимодействия для Task5Page.xaml
     /// </summary>
-    public partial class Task2Page : Page
+    public partial class Task5Page : Page
     {
-        public Task2Page()
+        public Task5Page()
         {
             InitializeComponent();
         }
 
         private void BtnOKClick(object sender, RoutedEventArgs e)
         {
-            // Задание 2
+            // Задание 5
 
-            double a = Convert.ToDouble(TbNumberA.Text);
-            double b = Convert.ToDouble(TbNumberB.Text);
-
-            if (a > b)
-            {
-                double temp = a;
-                a = b;
-                b = temp;
-            }
-            TextBlockAnswer.Text = $"A = {a}, B = {b}";
 
         }
     }

@@ -44,5 +44,10 @@ namespace skvor_pract3
         {
             MainFrame.Navigate(new Task4Page());
         }
+
+        private void BtnTask5_Click(object sender, RoutedEventArgs e)
+        {
+            MainFrame.Navigate(new Task5Page());
+        }
     }
 }

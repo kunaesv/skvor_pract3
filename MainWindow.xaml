@@ -23,7 +23,8 @@
             <Button x:Name="BtnTask1" Content="Задание 1" Click="BtnTask1_Click"/>
             <Button x:Name="BtnTask2" Content="Задание 2" Click="BtnTask2_Click"/>
             <Button x:Name="BtnTask3" Content="Задание 3" Click="BtnTask3_Click"/>
-            <Button x:Name="BtnTask4" Content="Задание 4" Click="BtnTask4_Click"/>
+            <Button x:Name="BtnTask4" Content="Задание 4" Click="BtnTask4_Click"/> 
+            <Button x:Name="BtnTask5" Content="Задание 5" Click="BtnTask5_Click"/>
         </StackPanel>
         <Frame Grid.Row="1" x:Name="MainFrame" NavigationUIVisibility="Hidden"/>
     </Grid>

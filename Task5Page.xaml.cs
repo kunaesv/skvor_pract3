@@ -29,7 +29,25 @@ namespace skvor_pract3
         {
             // Задание 5
 
-
+            int x, y; if (!int.TryParse(TbNumberX.Text, out x) || !int.TryParse(TbNumberY.Text, out y))
+            {
+                TextBlockAnswer.Text = "Введите целочисленные значения!";
+                return;
+            }
+            string result; if (x >= -40 && x <= 40 && y >= -40 && y <= 40)
+            {
+                result = "Точка находится внутри области";
+            }
+            else if (x == 40 || x == -40 || y == 40 || y == -40)
+            {
+                result = "Точка находится на границе области";
+            }
+            else
+            {
+                result = "Точка находится вне области";
+            }
+            TextBlockAnswer.Text = result;
         }
     }
-}
+}   
+

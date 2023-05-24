@@ -27,6 +27,8 @@ namespace skvor_pract3
 
         private void BtnOKClick(object sender, RoutedEventArgs e)
         {
+            // Дополнительное задание 2
+
             int number = Convert.ToInt32(TbNumberA.Text);
             string description;
 
